@@ -1,0 +1,27 @@
+name: trading_bot
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - defaults
+dependencies:
+  - matplotlib
+  - numpy
+  - pandas
+  - pip
+  - python=3.12
+  - ipykernel
+  - python-dotenv
+  - sentencepiece
+  - pytorch
+  - pytorch-cuda=11.8
+  - torchaudio
+  - torchvision
+  - transformers
+  - scrapy
+  - beautifulsoup4
+  - plotly
+  - django
+  - pip:
+    - -r requirements.txt
+
